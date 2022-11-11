@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+    font-size:20px;
+    list-style-type:none;
+  }
+  
+nav a {
+    color:white;
+    font-weight: bold;
+    text-decoration:none;
+  }
+
+nav a:hover {
+  color: #b9C6ae;
+}
+
+/*Justified text to make it look nicer*/
+p {
+    font-size: 16px;
+    text-align:justify;
+    color:white;
+}
+
+.body{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Put together both classes with same properties*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Grouped the different benefit class properties into one property, benefits, including the h3*/
+h3 {
+    margin-bottom:10px;
+    text-align:center;
+}
+
+/*Changed the padding to 50px*/
+.side-section {
+    margin-right: 20px;
+    margin-bottom:32;
+    padding: 30px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+    justify-content:space-around;
+}
+
+.side-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.main-section {
+    padding: 50px;
+    height: 300px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    width: 75%;
+    margin-left: 20px;
+    display:inline-block;
+}
+
+/*Added shadow to main images*/
+.main-section, img {
+    max-height: 200px; 
+    max-height: 200px;
+}
+
+/*put together these 3 different classes to assign them same properties*/
+.main-section, h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Modified padding*/
+footer {
+    padding: 50px;
+    clear:both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+
+}
