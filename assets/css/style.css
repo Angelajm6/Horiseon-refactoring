@@ -79,7 +79,6 @@ h3 {
 /*Changed the padding to 50px*/
 .side-section {
     margin-right: 20px;
-    margin-bottom:32;
     padding: 30px;
     clear: both;
     float: right;
@@ -109,9 +108,10 @@ h3 {
 }
 
 /*Added shadow to main images*/
-.main-section, img {
+.main-section img {
     max-height: 200px; 
     max-height: 200px;
+    box-shadow:10px 10px 5px black;
 }
 
 /*put together these 3 different classes to assign them same properties*/
