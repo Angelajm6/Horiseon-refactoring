@@ -71,23 +71,25 @@ main p {
 }
 
 /* Grouped the different benefit class properties into one property, benefits, including the h3*/
-h3 {
-    margin-bottom:10px;
-    text-align:center;
-}
-
-/*Changed the padding to 50px*/
-.side-section {
+.benefits {
     margin-right: 20px;
-    padding: 30px;
+    padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height:auto;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+.side-section{
+    margin-bottom: 32px;
     color: #ffffff;
-    justify-content:space-around;
+}
+
+.side-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .side-section img {
